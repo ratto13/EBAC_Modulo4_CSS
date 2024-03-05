@@ -1,3 +1,23 @@
  h1 {
     color: red
  }
+
+ h2 {
+    color: green
+ }
+
+ #sports h2 {
+    color: blue
+ }
+
+ #economy h2 {
+    color:purple
+ }
+
+ .data {
+    color: gray
+ }
+
+ * {
+    color: red
+ }
