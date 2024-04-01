@@ -1,23 +1,27 @@
- h1 {
-    color: red
- }
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
 
- h2 {
-    color: green
- }
+header li {
+   display: inline
+}
 
- #sports h2 {
-    color: blue
- }
+.container {
+   width: 1366px;
+   margin: 0 auto;
+}
 
- #economy h2 {
-    color:purple
- }
+.articles {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
 
- .data {
-    color: gray
- }
-
- * {
-    color: red
- }
+.articles article {
+   width: 30%;
+}
+.articles article img {
+   height: 180px;
+}
